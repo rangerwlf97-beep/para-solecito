@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Una sorpresa para ti ❤️</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="pantalla-filtro" class="container">
+        <h1>Para continuar...</h1>
+        <p>¿Qué canción sonaba en nuestro primer beso?</p>
+        <div class="input-group">
+            <input type="text" id="respuesta-filtro" placeholder="Escribe la respuesta aquí...">
+            <button onclick="verificarRespuesta()">Entrar</button>
+        </div>
+    </div>
+
+    <div id="pantalla-propuesta" class="container" style="display: none;">
+        <h1>¡Exacto! Oscar Maydon sabia cosas Jijiji, Solecito, tu sabes que te amo mucho. ❤️</h1>
+        
+        <div class="contenedor-img">
+            <img src="assets/deku-uraraka.jpg" alt="Deku y Uraraka" class="imagen-anime">
+        </div>
+
+        <h2 class="pregunta-principal">Entonces... ¿Quieres ser mi novia?</h2>
+        
+        <div class="botones">
+            <button id="btn-si">¡SÍ!</button>
+            <button id="btn-no">No</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
