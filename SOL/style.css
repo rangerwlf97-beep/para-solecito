@@ -1,0 +1,46 @@
+body {
+    background-color: pink; /* Solo para probar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#btn-no {
+    /* Esto permite que las coordenadas 'left' y 'top' de JS funcionen */
+    transition: 0.3s; /* Para que el movimiento no sea tan brusco y se vea fluido */
+}
+button {
+    padding: 15px 30px; /* Botones más grandes para que sean fáciles de tocar */
+    font-size: 18px;
+    touch-action: none; /* Evita que el zoom del celular interfiera al intentar tocar */
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff4d6d;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white; /* Para que resalte sobre el fondo rosa */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+.contenedor-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.imagen-anime {
+    width: 250px; /* Ajusta el tamaño a tu gusto */
+    height: auto;
+    border-radius: 15px; /* Bordes redondeados para que se vea más moderna */
+    border: 3px solid #ff4d6d; /* Un marco del color de tu tema */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra para que resalte */
+}
